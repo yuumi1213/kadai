@@ -31,8 +31,8 @@ foreach文で順番に出力してください。
 */
 
 $fruits = array("apple" , "orenge" , "lemon" , "cherry" , "peach");
-for ($i = 0; $i < count($fruits); $i++) {
-  echo $fruits[$i];
+  foreach($fruits as $fruit){
+  echo $fruit;
   echo "\n";
 }
 
